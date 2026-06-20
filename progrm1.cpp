@@ -5,8 +5,8 @@ int main(){
     int n;
     cout<<"Enter n: ";
     cin>>n;
-    for(int i=1;i<=n;i++){
-        cout<<i<<"\t";
-    }
+    int sum=0;
+    sum=n*(n+1)/2;
+    cout<<"Sum of first "<<n<<" natural numbers is: "<<sum<<endl;
     return 0;
 }
